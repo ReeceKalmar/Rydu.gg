@@ -28,6 +28,28 @@
   color: #61dafb;
 }
 
+.Tool-bar {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+}
+
+.menu {
+  position: relative;
+}
+
+.Menu-Dropimg {
+  position: absolute;
+  top: -930px;
+  right: -50px;
+  height: 40px;
+  opacity: .7;
+}
+
+.Menu-Dropimg:hover {
+  opacity: 1;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
