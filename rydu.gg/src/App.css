@@ -1,21 +1,33 @@
 
 .App-header {
-  background-color: black;
+  background-color: #282c34;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   height: 100px;
 }
-
+.Home-Page-Link {
+  margin-right: auto;
+  margin-left: 20px;
+}
+.Rydu-Header-Logo{
+  height: 150px;
+  width: 150px;
+}
 .menu {
-  order: 0;
+  margin-right: 20px;
+  order: 2;
 }
 .Search-Menu {
+  margin-right: auto;
   order: 1;
 }
 .Search-Bar {
-  width:300px;
+  background-color: azure;
+
+  width:400px;
+  height: 50px;
 }
 .Menu-Dropimg {
   opacity: .7;
