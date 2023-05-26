@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 
-function App() {
+
+
+function HomePage() {
   return (
     <div className="App">
       <header className="App-header">
@@ -15,13 +17,16 @@ function App() {
         <div className='Home-Page-Link'>
           <img src="/Page_Icons/Rydu smaller.png" alt="Homepage Button" className='Rydu-Header-Logo' />
         </div>
+        <div className='Region'></div>
 
       </header>
       <body className='Page-Body'>
-
+        <div className='Champion-Block'>Champion Tier List</div>
+        <div className='LeaderBoard'>Leaderboards</div>
       </body>
+      <footer></footer>
     </div>
   );
 }
 
-export default App;
+export default HomePage;

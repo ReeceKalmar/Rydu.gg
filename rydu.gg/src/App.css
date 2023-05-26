@@ -41,4 +41,11 @@
 .Page-Body {
   background-color: #282c34;
   height: 850px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+.Champion-Block{
+  color: #700ce0;
 }
